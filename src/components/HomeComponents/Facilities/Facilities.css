@@ -1,0 +1,30 @@
+.FacilitiesContainer {
+  @apply w-full m-auto pt-10 pb-20
+    text-center bg-[#43256f];
+}
+
+.FacilitiesCardsContainer {
+  @apply flex flex-col space-y-3 lg:space-y-0
+     lg:flex-row lg:space-x-7  
+     w-[90%] lg:w-[80%] mx-auto mt-14 justify-center 
+     items-center lg:items-baseline;
+}
+
+.FacilitiesCardFunDiv {
+  @apply relative w-[250px] xs:w-[300px] 
+    sm:w-[350px] h-[250px] xs:h-[280px] 
+    sm:h-[320px] lg:h-[260px] xl:h-[290px] 2xl:h-[290px] shadow-lg;
+}
+
+.FacilitiesCardFunHeading {
+  @apply mt-2 mb-2 text-xl md:text-base 
+    lg:text-xl font-semibold text-[#f1c50e] 
+    tracking-widest;
+}
+
+.FacilitiesCardFunButton {
+  @apply absolute bottom-4 -translate-x-1/2 
+    text-[10px] tracking-widest font-semibold 
+    px-7 py-2 bg-[#f1c50e] ease-in-out 
+    duration-150 hover:scale-110;
+}
