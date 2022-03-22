@@ -43,22 +43,6 @@
     items-center 
     justify-between;
   }
-  /* .mysignform {
-    @apply block w-full
-    mt-1
-    p-1
-    pl-3
-    sm:p-2
-    lg:p-3
-    text-sm
-    sm:text-base
-    bg-zinc-200
-    bg-opacity-70
-    rounded-sm
-    border-none
-    active:border-mycolor
-    focus:border-mycolor;
-  } */
   .myforminput {
     @apply block
     w-[84%]
