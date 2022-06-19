@@ -1,39 +1,3 @@
-/* .navBarLogo {
-  @apply w-14 xs:w-20 md:w-28 lg:w-32 2xl:w-36 ml-5
-   md:ml-10 lg:ml-16 xl:ml-24 2xl:ml-32 my-2;
-}
-/* .navBarLogo {
-  @apply text-3xl sm:text-3xl lg:text-5xl 
-  font-bold float-left tracking-wide sm:tracking-widest ml-1 sm:ml-4 lg:ml-16 
-  xl:ml-32 px-3 pt-3 sm:p-2 lg:p-3 text-mycolor;
-} */
-/*
-.navBarDesktop {
-  @apply text-[10px] hidden sm:block;
-}
-
-.navBarList {
-  @apply flex flex-row justify-start space-x-4 
-  sm:space-x-8 xl:space-x-20 text-center 
-  font-bold px-2 sm:px-5 xl:px-10 
-  sm:text-sm lg:text-base xl:text-lg;
-}
-
-.menuBars {
-  @apply pr-5 mt-0 pt-0 text-xl xs:text-2xl block sm:hidden;
-}
-
-.menuBarRow {
-  @apply w-full flex py-3 rounded-lg
-  hover:bg-mycolor;
-}
-
-.menuBarIcons {
-  @apply text-xl px-5;
-}
-.menuBarRowCells {
-  @apply text-lg tracking-widest w-full;
-} */
 .navBarLogo {
   @apply w-14 xs:w-20 md:w-28 lg:w-32 2xl:w-36 ml-5
    md:ml-10 lg:ml-16 xl:ml-24 2xl:ml-32 my-2;
@@ -44,18 +8,15 @@
   xl:ml-32 px-3 pt-3 sm:p-2 lg:p-3 text-mycolor;
 } */
 
-.mynav {
-  @apply hover:underline hover:underline-offset-4 hover:decoration-mycolor hover:transition-all hover:duration-150;
-}
 .navBarDesktop {
   @apply text-[10px] hidden sm:block;
 }
 
 .navBarList {
-  @apply flex flex-row justify-center items-center space-x-4 
-  lg:space-x-6 xl:space-x-8 2xl:space-x-10 text-center 
-  font-semibold md:font-bold px-2 sm:px-5 xl:px-10 
-  text-xs md:text-sm lg:text-base xl:text-lg;
+  @apply flex flex-row justify-start space-x-4 
+  sm:space-x-8 xl:space-x-20 text-center 
+  font-bold px-2 sm:px-5 xl:px-10 
+  sm:text-sm lg:text-base xl:text-lg;
 }
 
 .menuBars {
