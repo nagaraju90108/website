@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from '../Intro';
 import Footer from '../Footer';
 import Advantages from '../HomeComponents/Advantages/Advantages';
+import Why from '../HomeComponents/Why/Why';
 function Home() {
   return (
     <div className="pt-20 sm:pt-0">
@@ -10,6 +11,7 @@ function Home() {
         <i className="fa-solid fa-angles-down text-white absolute bottom-2 text-2xl md:text-3xl xl:text-4xl animate-bounce"></i>
       </div>
       <Advantages />
+      <Why />
       <Footer />
     </div>
   );
