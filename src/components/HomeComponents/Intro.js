@@ -14,21 +14,37 @@ function Intro() {
                 OSNR UNIVERSITY
               </span>
             </h1>
-            <div className="introText xl:px-0 my-5 text-sm xl:text-base xl:my-6 text-justify">
+            <div className="introText xl:px-0 my-3 text-sm xl:text-base xl:my-6 text-justify">
+              This is my first website using React and Tailwind CSS. React is an
+              open-source JavaScript library that is used for building UI
+              specifically for single-page applications.
+              <section className="hidden sm:inline">
+                React also allows us to create reusable UI components. Tailwind
+                CSS is basically a utility-first CSS framework for rapidly
+                building custom user interfaces.
+                <section className="hidden lg:inline">
+                  It is a highly customizable, low-level CSS framework that
+                  gives you all of the building blocks you need to build bespoke
+                  designs without any annoying opinionated styles you have to
+                  fight to override.
+                </section>
+              </section>
+            </div>
+            {/* <div className="introText xl:px-0 my-5 text-sm xl:text-base xl:my-6 text-justify">
               One of India's Best Private Universities, a premier Institute
               providing the most enriching quality learning experience through
               cutting-edge research, innovative entrepreneurship, global
               exposure and the most lucrative career opportunities.
-              <section className="hidden sm:inline">
-                <section className="hidden lg:inline">
+              <div className="hidden sm:inline">
+                <div className="hidden lg:inline">
                   Ranked among the top 10% of Universities in India, OSNR
                   University is NAAC "A" Accredited and has received numerous
                   National and International Awards. It has over 58 MOUs with
                   excellent infrastructure and an environment for
                   research-driven learning.
-                </section>
-              </section>
-            </div>
+                </div>
+              </div>
+            </div> */}
           </div>
 
           {/* <div className="my-12 mx-auto max-w-sm flex flex-col space-y-6 sm:hidden">
