@@ -1,5 +1,5 @@
 import React from 'react';
-import Intro from '../HomeComponents/Intro';
+import Intro from '../Intro';
 import Footer from '../Footer';
 import Advantages from '../HomeComponents/Advantages/Advantages';
 import Why from '../HomeComponents/Why/Why';
