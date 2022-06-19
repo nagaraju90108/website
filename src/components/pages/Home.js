@@ -3,6 +3,7 @@ import Intro from '../Intro';
 import Footer from '../Footer';
 import Advantages from '../HomeComponents/Advantages/Advantages';
 import Why from '../HomeComponents/Why/Why';
+import Courses from '../HomeComponents/Courses/Courses';
 function Home() {
   return (
     <div className="pt-20 sm:pt-0">
@@ -12,6 +13,7 @@ function Home() {
       </div>
       <Advantages />
       <Why />
+      <Courses />
       <Footer />
     </div>
   );
