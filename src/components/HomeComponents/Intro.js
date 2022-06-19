@@ -8,12 +8,16 @@ function Intro() {
       <div className=" min-h-[95vh] lg:min-h-[90vh] text-white flex flex-col items-center justify-center text-center">
         <div className="w-[90%] max-w-sm xs:max-w-md sm:max-w-xl md:max-w-3xl lg:max-w-[80%] xs:w-[80%] 2xl:w-10/12 px-0">
           <div>
-            <h1 className="font-bold text-3xl lg:text-4xl">
+            <h1 className="font-bold text-3xl lg:text-5xl">
+              WELCOME TO <br className="sm:hidden" />{' '}
+              <span className="text-mycolor">MY FIRST WEBSITE</span>
+            </h1>
+            {/* <h1 className="font-bold text-3xl lg:text-4xl">
               ADVANCE YOUR CAREER WITH <br className="" />{' '}
               <span className="text-mycolor text-4xl md:text-6xl lg:text-7xl sm:tracking-widest">
                 OSNR UNIVERSITY
               </span>
-            </h1>
+            </h1> */}
             <div className="introText xl:px-0 my-3 text-sm xl:text-base xl:my-6 text-justify">
               This is my first website using React and Tailwind CSS. React is an
               open-source JavaScript library that is used for building UI
