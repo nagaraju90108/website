@@ -6,6 +6,7 @@ import Why from '../HomeComponents/Why/Why';
 import Courses from '../HomeComponents/Courses/Courses';
 import Companies from '../HomeComponents/Companies/Companies';
 import CampusLis from '../HomeComponents/Campus/CampusLis';
+import Experience from '../HomeComponents/Experience/Experience';
 // import Facilities from '../HomeComponents/Facilities/Facilities';
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Companies />
       <CampusLis />
       {/* <Facilities /> */}
+      <Experience />
       <Footer />
     </div>
   );
