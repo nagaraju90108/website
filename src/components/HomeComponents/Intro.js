@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Intro() {
-  const LoginStatus = localStorage.getItem('LoginStatus');
+  // const LoginStatus = localStorage.getItem('LoginStatus');
   return (
     <>
       <div className=" min-h-[95vh] lg:min-h-[90vh] text-white flex flex-col items-center justify-center text-center">
@@ -31,7 +31,7 @@ function Intro() {
             </div>
           </div>
 
-          <div className="my-12 mx-auto max-w-sm flex flex-col space-y-6 sm:hidden">
+          {/* <div className="my-12 mx-auto max-w-sm flex flex-col space-y-6 sm:hidden">
             <Link
               to={LoginStatus === '0' ? '/signin' : '/about'}
               className="mybtn_outline"
@@ -59,7 +59,7 @@ function Intro() {
             >
               {LoginStatus === '0' ? 'REGISTER' : 'CONTACT US'}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
