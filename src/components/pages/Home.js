@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import Advantages from '../HomeComponents/Advantages/Advantages';
 import Why from '../HomeComponents/Why/Why';
 import Courses from '../HomeComponents/Courses/Courses';
+import Companies from '../HomeComponents/Companies/Companies';
 function Home() {
   return (
     <div className="pt-20 sm:pt-0">
@@ -14,6 +15,7 @@ function Home() {
       <Advantages />
       <Why />
       <Courses />
+      <Companies />
       <Footer />
     </div>
   );
