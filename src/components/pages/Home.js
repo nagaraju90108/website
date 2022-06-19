@@ -5,6 +5,7 @@ import Advantages from '../HomeComponents/Advantages/Advantages';
 import Why from '../HomeComponents/Why/Why';
 import Courses from '../HomeComponents/Courses/Courses';
 import Companies from '../HomeComponents/Companies/Companies';
+import CampusLis from '../HomeComponents/Campus/CampusLis';
 function Home() {
   return (
     <div className="pt-20 sm:pt-0">
@@ -16,6 +17,7 @@ function Home() {
       <Why />
       <Courses />
       <Companies />
+      <CampusLis />
       <Footer />
     </div>
   );
